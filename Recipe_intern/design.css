@@ -1,0 +1,19 @@
+/* styling for login page */
+@font-face {
+    font-family: 'Scriptina_Pro';
+    src: url(font/Scriptina_Pro.ttf) format('truetype');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    justify-content: center; /* Vertically center the content */
+    height: 100vh; /* Set the container height to the full viewport height */
+}
+.navbar-title{
+    padding: 40px 0px 0px 50px;
+    margin-bottom: 0px;
+    font-family: 'Scriptina_Pro';
+    font-size: 5rem;
+}
